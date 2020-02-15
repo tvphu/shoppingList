@@ -41,8 +41,6 @@ app.get("/", function(req,res){
 
   }
 
-
-
   res.render("list", {kindOfday: day, newlistitem: items})
 });
 
