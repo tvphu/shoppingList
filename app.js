@@ -55,7 +55,7 @@ app.post("/", function(req,res){
 
 let port = process.env.PORT;
 
-if (port == null || port = ""){
+if (port == null || port == ""){
   port = 3000;
 }
 
